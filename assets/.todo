@@ -7,3 +7,5 @@ TODO: Ask about "position: inherit" CSS property
 TODO: Ask why "right: 40px" CSS rule doesn't work
 TODO: Ask if is necessary to maintain the original COPYRIGHT of the ODIN PROJECT
 TODO: Ask if the naming convention for closing tags should be <br /> or <br>
+TODO: Ask if is better to use <meta charset="UTF-8"/> or <meta charset="UTF-8">
+TODO: Ask if in general is better to close those tags which also not have a pair close tag
