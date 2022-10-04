@@ -9,3 +9,4 @@ TODO: Ask if is necessary to maintain the original COPYRIGHT of the ODIN PROJECT
 TODO: Ask if the naming convention for closing tags should be <br /> or <br>
 TODO: Ask if is better to use <meta charset="UTF-8"/> or <meta charset="UTF-8">
 TODO: Ask if in general is better to close those tags which also not have a pair close tag
+TODO: Ask whats the difference between "submit" and "button" on the type of the buttons
