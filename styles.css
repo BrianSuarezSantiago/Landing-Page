@@ -1,0 +1,48 @@
+* {
+    /*Initially the body contains margins to separate elements and try to make the page clearer and this affects other HTML elements*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.main-section-quoteblock {
+    background-color: #E5E7EB;
+    font-weight: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3rem;
+    padding-inline: 10rem;
+    gap: 0.2rem;
+}
+
+.main-section-quoteblock #quote {
+    text-align: center;
+}
+
+.main-section-quoteblock #author {
+    text-align: right;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+    /*TODO: revisar*/
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 2rem 10rem;
+}
