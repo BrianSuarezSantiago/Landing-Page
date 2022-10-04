@@ -1,24 +1,8 @@
-/* Change box-sizing rules for all elements */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-blockquote,
-dl,
-dd {
+* {
+    /* Remove default margin and change box-sizing rules for all elements */
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Set core root defaults */
@@ -70,7 +54,7 @@ select {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: system-ui;
 }
 
 /* ------------ */
@@ -236,7 +220,7 @@ header nav {
 }
 
 .main-section-quoteblock .author {
-    text-align: left;
+    text-align: right;
     width: 100%;
     font-weight: 700;
     font-size: 1rem;
